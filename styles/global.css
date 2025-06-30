@@ -244,6 +244,22 @@ iframe {
   }
 }
 
+.boton-volver, .btn-volver {
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: auto;
+  margin: 20px auto 10px;
+  display: block;
+  max-width: 80%;
+  text-align: center;
+}
+footer {
+  font-size: 0.85rem;
+  padding: 12px 5px;
+  margin-top: 15px;
+}
+
+
 
 
 
