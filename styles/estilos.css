@@ -140,9 +140,8 @@ h1 {
     z-index: 1000;
   }
 
-  #menu-toggle:checked + .menu-icon + nav .nav-links {
-    display: flex;
-  }
+#menu-toggle:checked ~ nav .nav-links {
+
 
   .nav-links li {
     width: 100%;
