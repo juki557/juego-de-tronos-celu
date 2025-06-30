@@ -100,7 +100,7 @@ h1 {
 /* ---------- RESPONSIVE (CELULAR) ---------- */
 @media screen and (max-width: 768px) {
     
-  h1 {
+  .titulo {
     display: none;
   }
 
