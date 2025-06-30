@@ -5,17 +5,16 @@
   src: url('../fonts/Game of Thrones.ttf') format('truetype');
 }
 
-/* ---------- BODY / FONDO ---------- */
+/* ---------- BODY / FONDO PC ---------- */
 body {
-  background-image: url('https://wallpapers.com/images/hd/daenerys-targaryen-dragon-fire-art-ew7kt56nvkyvb7m9.jpg'); /* Imagen de PC */
+  background-image: url('https://wallpapers.com/images/hd/daenerys-targaryen-dragon-fire-art-ew7kt56nvkyvb7m9.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
 
-
-/* ---------- HEADER Y MENÚ ---------- */
+/* ---------- HEADER Y MENÚ DESKTOP ---------- */
 nav {
   position: absolute;
   top: 20px;
@@ -91,13 +90,14 @@ h1 {
   animation: pulse 2s infinite;
 }
 
+/* ---------- ANIMACIÓN ---------- */
 @keyframes pulse {
   0% { transform: scale(1); box-shadow: 0 0 10px #ff4500; }
   50% { transform: scale(1.05); box-shadow: 0 0 20px #ffa500; }
   100% { transform: scale(1); box-shadow: 0 0 10px #ff4500; }
 }
 
-/* ---------- RESPONSIVE (MÓVIL) ---------- */
+/* ---------- RESPONSIVE (CELULAR) ---------- */
 @media screen and (max-width: 768px) {
   body {
     background-image: url('../img/celu.jpg'); /* Imagen para celular */
@@ -106,8 +106,6 @@ h1 {
     background-repeat: no-repeat;
     background-color: black;
   }
-}
-
 
   h1 {
     font-size: 2rem;
@@ -145,8 +143,9 @@ h1 {
     z-index: 1000;
   }
 
-#menu-toggle:checked ~ nav .nav-links {
-
+  #menu-toggle:checked ~ header nav .nav-links {
+    display: flex;
+  }
 
   .nav-links li {
     width: 100%;
@@ -159,6 +158,7 @@ h1 {
     margin: auto;
   }
 }
+
 
 
 
