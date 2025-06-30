@@ -99,6 +99,11 @@ h1 {
 
 /* ---------- RESPONSIVE (CELULAR) ---------- */
 @media screen and (max-width: 768px) {
+    
+  h1 {
+    display: none;
+  }
+
   body {
     background-image: url('../img/celu.jpg'); /* Imagen para celular */
     background-size: contain;
