@@ -168,7 +168,7 @@ footer {
   font-size: 1rem;
   padding: 10px 16px;
   width: auto;
-  margin: 8px auto 4px;
+  margin: 5px auto 0px;
   display: block;
   max-width: 50%;
   text-align: center;
@@ -176,6 +176,6 @@ footer {
 footer {
   font-size: 1rem;
   padding: 11px 4px;
-  margin-top: 7px;
+  margin-top: 0px;
   font-family: 'Cardo', serif;
 }
