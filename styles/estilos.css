@@ -90,6 +90,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-color: black;
+  }
+
   nav {
     position: static;
     display: flex;
@@ -130,20 +138,8 @@ body {
     font-size: 2rem;
     text-align: center;
   }
-
-  body {
-    background-position: center top;
-  }
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-color: black; /* Para fondo detrás si la imagen no cubre todo */
-  }
-}
 
 
 
