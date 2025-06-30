@@ -100,7 +100,7 @@ h1 {
 /* ---------- RESPONSIVE (MÓVIL) ---------- */
 @media screen and (max-width: 768px) {
   body {
-    background-image: url('https://yourdomain.com/img/mobile-daenerys.jpg'); /* Imagen para celular */
+    background-image: url('img/celu.jpg'); /* Imagen para celular */
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
