@@ -92,34 +92,48 @@ body {
 @media screen and (max-width: 768px) {
   nav {
     position: static;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
   }
 
   .nav-links {
     flex-direction: column;
-    gap: 10px;
-    padding: 0;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .nav-links li {
+    width: 90%;
+    text-align: center;
   }
 
   .nav-links li a {
     font-size: 1rem;
-    padding: 10px 14px;
-    width: 80%;
-    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    display: block;
   }
 
   .frase-Daenerys {
     font-size: 1rem;
-    bottom: 15px;
-    right: 20px;
-    text-align: center;
+    right: 10px;
+    bottom: 10px;
     padding: 6px 10px;
+    width: 90%;
+    text-align: center;
   }
 
   h1 {
     font-size: 2rem;
     text-align: center;
   }
+
+  body {
+    background-position: center top;
+  }
 }
+
 
