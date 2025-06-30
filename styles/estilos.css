@@ -105,7 +105,7 @@ h1 {
   }
 
   body {
-    background-image: url('../img/celular.jpg'); /* Imagen para celular */
+    background-image: url('../img/celular.webp'); /* Imagen para celular */
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
