@@ -7,11 +7,13 @@
 
 /* ---------- BODY / FONDO ---------- */
 body {
-  margin: 0;
-  padding: 0;
-  background: url('https://wallpapers.com/images/hd/daenerys-targaryen-dragon-fire-art-ew7kt56nvkyvb7m9.jpg') center / cover no-repeat;
+  background-image: url('https://wallpapers.com/images/hd/daenerys-targaryen-dragon-fire-art-ew7kt56nvkyvb7m9.jpg'); /* Imagen de PC */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 100vh;
 }
+
 
 /* ---------- HEADER Y MENÚ ---------- */
 nav {
@@ -98,11 +100,14 @@ h1 {
 /* ---------- RESPONSIVE (MÓVIL) ---------- */
 @media screen and (max-width: 768px) {
   body {
+    background-image: url('https://yourdomain.com/img/mobile-daenerys.jpg'); /* Imagen para celular */
     background-size: contain;
-    background-position: top center;
+    background-position: top;
     background-repeat: no-repeat;
     background-color: black;
   }
+}
+
 
   h1 {
     font-size: 2rem;
