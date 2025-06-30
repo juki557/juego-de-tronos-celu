@@ -222,19 +222,18 @@ iframe {
 @media screen and (max-width: 768px) {
 
   h1 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     text-align: center;
   }
 
   h2 {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
   }
 
