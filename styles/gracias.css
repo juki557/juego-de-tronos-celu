@@ -52,7 +52,7 @@ header {
 
 header h1 {
   font-family: 'MedievalSharp', cursive;
-  font-size: 1.5rem;
+  font-size: 3rem;
   color: #fff4cc; 
   text-shadow:
     0 0 8px rgba(255, 204, 0, 0.8), 
@@ -149,4 +149,19 @@ footer {
   margin: 25px auto;
   display: block;
   box-shadow: 0 0 15px rgba(255, 148, 77, 0.6);
+}
+
+.boton-volver, .btn-volver {
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: auto;
+  margin: 20px auto 10px;
+  display: block;
+  max-width: 50%;
+  text-align: center;
+}
+footer {
+  font-size: 0.85rem;
+  padding: 11px 4px;
+  margin-top: 13px;
 }
