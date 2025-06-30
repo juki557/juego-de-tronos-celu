@@ -158,10 +158,11 @@ footer {
   line-height: 1.6rem;
   }
 
-  p {
-    font-size: 0.95rem;
-    line-height: 1.5rem;
-  }
+.agradecimiento p {
+  font-size: 1.2rem;
+  color: var(--texto);
+  margin: 10px 0;
+}
   
 .boton-volver, .btn-volver {
   font-size: 1rem;
