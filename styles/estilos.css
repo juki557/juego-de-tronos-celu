@@ -5,7 +5,7 @@
   src: url('../fonts/Game of Thrones.ttf') format('truetype');
 }
 
-/* ---------- FONDO PC ---------- */
+/*  FONDO PC JUEGO DE TRONOS */
 body {
   background-image: url('https://wallpapers.com/images/hd/daenerys-targaryen-dragon-fire-art-ew7kt56nvkyvb7m9.jpg');
   background-size: cover;
@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-/* ---------- TÍTULO ---------- */
+/*  TÍTULO  */
 .titulo {
   font-family: 'GameOfThrones', serif;
   font-size: 3rem;
@@ -24,7 +24,7 @@ body {
   padding: 20px;
 }
 
-/* ---------- MENÚ ---------- */
+/*  MENÚ  */
 nav {
   position: absolute;
   top: 20px;
@@ -75,7 +75,7 @@ nav {
   background: linear-gradient(145deg, rgba(255, 69, 0, 0.4), rgba(255, 100, 0, 0.4));
 }
 
-/* ---------- FRASE ---------- */
+/*  FRASE  */
 .frase-Daenerys {
   font-family: 'MedievalSharp', cursive;
   font-size: 1.5rem;
@@ -96,7 +96,7 @@ nav {
   100% { transform: scale(1); box-shadow: 0 0 10px #ff4500; }
 }
 
-/* ---------- RESPONSIVE (CELULAR) ---------- */
+/*  RESPONSIVE (CELULAR)  */
 @media screen and (max-width: 768px) {
   body {
     background-image: url('../img/descarga.jpeg');
