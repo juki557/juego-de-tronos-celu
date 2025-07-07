@@ -14,6 +14,11 @@ body {
   min-height: 100vh;
 }
 
+main {
+  flex: 1;
+}
+
+
 /*  TÍTULO  */
 .titulo {
   font-family: 'GameOfThrones', serif;
