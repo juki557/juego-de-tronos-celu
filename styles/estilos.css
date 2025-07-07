@@ -217,6 +217,30 @@ nav {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex !important;       /* se muestran horizontalmente */
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: static;
+    background: none;
+    box-shadow: none;
+    height: auto;
+    padding: 0;
+    transform: none;
+  }
+
+  .nav-links li a {
+    font-size: 1.2rem;
+    width: auto;
+  }
+}
+
 
 
 
