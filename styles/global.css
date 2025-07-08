@@ -245,12 +245,6 @@ iframe {
 
 @media screen and (max-width: 768px) {
 
-  img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  }
-
   header h1 {
   font-size: 1.5rem;
   line-height: 1.6rem;
