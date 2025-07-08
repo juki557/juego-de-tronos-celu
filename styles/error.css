@@ -103,3 +103,38 @@ header h1 {
   margin: 10px 0;
 }
 
+
+@media (max-width: 768px) {
+  .contenido-404 h1 {
+    font-size: 2rem;
+  }
+
+  .contenido-404 p {
+    font-size: 1.2rem;
+  }
+
+  .contenido-404 img {
+    width: 200px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .ayuda {
+    padding: 16px;
+    max-width: 95%;
+  }
+
+  .ayuda h3 {
+    font-size: 1.2em;
+  }
+
+  .ayuda p,
+  .ayuda li,
+  .ayuda a {
+    font-size: 0.95em;
+  }
+}
+
+
