@@ -14,14 +14,14 @@
   font-size: 4rem;       
   color: var(--fuego);  
   text-shadow:
-    0 0 8px var(--fuego),         /* sombra interna */
-    0 0 16px var(--naranja-fuego),/* segunda sombra */
-    0 0 24px var(--naranja-fuego);/* tercera sombra */
-  margin-bottom: 20px;   /* espacio abajo */
+    0 0 8px var(--fuego),         
+    0 0 16px var(--naranja-fuego),
+    0 0 24px var(--naranja-fuego);
+  margin-bottom: 20px;  
 }
 
 .contenido-404 p {
-  font-size: 1.5rem;     /* tamaño del texto */
+  font-size: 1.5rem;     /* tamano del texto */
   color: var(--texto);   
   margin: 10px 0;        
 }
@@ -52,14 +52,14 @@ header {
 }
 
 * {
-  margin: 0;  /* reset de margen */
-  padding: 0; /* reset de padding */
+  margin: 0;  
+  padding: 0; 
   box-sizing: border-box; 
 }
 
 header h1 {
   font-family: 'MedievalSharp', cursive; 
-  font-size: 3rem;          /* tamaño del header */
+  font-size: 3rem;          /* tamano del header */
   color: #fff4cc;           
   text-shadow:
     0 0 8px rgba(255, 204, 0, 0.8),
@@ -76,7 +76,7 @@ header h1 {
   margin-left: auto;
   margin-right: auto;        /* centrado */
   box-shadow: 0 0 10px #ffcc00; 
-  text-align: left;          /* alineación de texto */
+  text-align: left;         
 }
 
 .ayuda h3 {
