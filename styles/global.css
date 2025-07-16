@@ -22,8 +22,8 @@ h1, h2 {
 }
 
 * {
-  margin: 0;                  /* elimina márgenes por defecto */
-  padding: 0;                 /* elimina padding por defecto */
+  margin: 0;                  
+  padding: 0;                 
   box-sizing: border-box;     
 }
 
